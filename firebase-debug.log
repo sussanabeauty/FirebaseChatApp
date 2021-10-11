@@ -1,0 +1,64 @@
+[debug] [2021-10-11T04:00:02.183Z] ----------------------------------------------------------------------
+[debug] [2021-10-11T04:00:02.185Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sussana Beauty Kwabi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2021-10-11T04:00:02.185Z] CLI Version:   9.20.0
+[debug] [2021-10-11T04:00:02.185Z] Platform:      win32
+[debug] [2021-10-11T04:00:02.185Z] Node Version:  v15.4.0
+[debug] [2021-10-11T04:00:02.186Z] Time:          Sun Oct 10 2021 22:00:02 GMT-0600 (GMT-06:00)
+[debug] [2021-10-11T04:00:02.186Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-11T04:00:02.236Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-11T04:00:02.236Z] > authorizing via signed-in user (susannabeautyk@gmail.com)
+[info] i  emulators: Starting emulators: auth, database, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, database, storage"}}
+[debug] [2021-10-11T04:00:02.278Z] [hub] writing locator at C:\Users\SUSSAN~1\AppData\Local\Temp\hub-fir-chatapplication-ba297.json
+[debug] [2021-10-11T04:00:02.346Z] > refreshing access token with scopes: []
+[debug] [2021-10-11T04:00:02.347Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-11T04:00:02.522Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Mon, 11 Oct 2021 04:00:01 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-11T04:00:02.580Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-chatapplication-ba297 [none]
+[debug] [2021-10-11T04:00:02.917Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-chatapplication-ba297 200
+[debug] [2021-10-11T04:00:02.918Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-chatapplication-ba297 {"projectId":"fir-chatapplication-ba297","projectNumber":"866778132030","displayName":"FirebaseChatApplication","name":"projects/fir-chatapplication-ba297","resources":{"hostingSite":"fir-chatapplication-ba297","realtimeDatabaseInstance":"fir-chatapplication-ba297-default-rtdb","storageBucket":"fir-chatapplication-ba297.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[debug] [2021-10-11T04:00:02.919Z] database rules config:  [{"instance":"fir-chatapplication-ba297-default-rtdb","rules":"C:\\Apolis_Android\\Android_Class\\FirebaseChatApplication\\database.rules.json"}]
+[debug] [2021-10-11T04:00:02.932Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2021-10-11T04:00:02.933Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2021-10-11T04:00:02.934Z] Ignoring unsupported arg: rules {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: rules"}}
+[debug] [2021-10-11T04:00:02.934Z] Starting Database Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","C:\\Users\\Sussana Beauty Kwabi\\.cache\\firebase\\emulators\\firebase-database-emulator-v4.7.2.jar","--host","localhost","--port",9000],"optionalArgs":["port","host","functions_emulator_port","functions_emulator_host"],"joinArgs":false} {"metadata":{"emulator":{"name":"database"},"message":"Starting Database Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\Sussana Beauty Kwabi\\\\.cache\\\\firebase\\\\emulators\\\\firebase-database-emulator-v4.7.2.jar\",\"--host\",\"localhost\",\"--port\",9000],\"optionalArgs\":[\"port\",\"host\",\"functions_emulator_port\",\"functions_emulator_host\"],\"joinArgs\":false}"}}
+[info] i  database: Database Emulator logging to database-debug.log {"metadata":{"emulator":{"name":"database"},"message":"Database Emulator logging to \u001b[1mdatabase-debug.log\u001b[22m"}}
+[debug] [2021-10-11T04:00:16.018Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2021-10-11T04:00:16.290Z] Temp file directory for storage emulator: C:\Users\SUSSAN~1\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\SUSSAN~1\\AppData\\Local\\Temp/firebase/storage/blobs"}}
+[debug] [2021-10-11T04:00:17.296Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2021-10-11T04:00:17.297Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2021-10-11T04:00:17.297Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Sussana Beauty Kwabi\\.cache\\firebase\\emulators\\ui-v1.6.3\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Sussana Beauty Kwabi\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.3\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2021-10-11T04:00:17.571Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[debug] [2021-10-11T04:00:17.586Z] >>> HTTP REQUEST PUT http://localhost:9000/.settings/rules.json?ns=fir-chatapplication-ba297-default-rtdb  
+ {
+  "rules": {
+    "messages": {
+      ".read": "auth.uid != null",
+      ".write": "auth.uid != null"
+    }
+  }
+}
+
+[debug] [2021-10-11T04:00:18.589Z] <<< HTTP RESPONSE 200 {"content-length":"15","content-type":"application/json; charset=utf-8","access-control-allow-origin":"*","cache-control":"no-cache","x-firebase-project-id":"fir-chatapplication-ba297-default-rtdb","x-firebase-project-number":"123456789","x-firebase-uuid":"03e6cc66-dcbd-454e-9c08-19ed6bce63e9"}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI            │
+├────────────────┼────────────────┼────────────────────────────────┤
+│ Authentication │ localhost:9099 │ http://localhost:4000/auth     │
+├────────────────┼────────────────┼────────────────────────────────┤
+│ Database       │ localhost:9000 │ http://localhost:4000/database │
+├────────────────┼────────────────┼────────────────────────────────┤
+│ Storage        │ localhost:9199 │ http://localhost:4000/storage  │
+└────────────────┴────────────────┴────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
